@@ -1,0 +1,25 @@
+<template>
+	<div class="container">
+		<div class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 main_panel">
+			<div class="panel panel-info">
+				<div class="panel-heading">
+					<div class="panel-title">Recuperar Acesso</div>
+					<div class="small_top_redirect"><a route-href="route: login">Entrar</a></div>
+				</div>
+				<div class="panel-body login_body_panel">
+					<form class="form-horizontal" role="form">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-plus-square-o" aria-hidden="true"></i></span>
+							<input type="text" class="form-control" value.bind="email" placeholder="Digite seu E-mail" focus.bind="hasFocus">
+						</div>
+						<div class="form-group login_button">
+							<div class="col-sm-12 controls">
+								<button class="btn btn-success" click.delegate="recover()">Recuperar</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</template>
