@@ -4,16 +4,14 @@
 Este projeto tem como objetivo estudar o framework Aurelia além de fornecer uma base para uma tela de Login/Register/Forget utilizando essa tecnologia de Front-End.
 
 ## Instalando
-1. Faça um clone do projeto
+1. Instale o Aurelia CLI
+2. Faça um clone do projeto
+3. Na pasta do projeto, instale as dependências necessárias
+4. Ainda na pasta do projeto, rode o comando:
 ```
+npm install aurelia-cli -g
 git clone
-```
-2. Na pasta do projeto, instale as dependências necessárias
-```
 npm install
-```
-3. Ainda na pasta do projeto, rode o comando:
-```
 au run --watch
 ```
 ## Tecnologias Utilizadas
