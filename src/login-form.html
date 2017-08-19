@@ -1,10 +1,12 @@
 <template>
 	<div class="container">
-		<div class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 main_panel">
+		<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 main_panel">
 			<div class="panel panel-info">
 				<div class="panel-heading">
 					<div class="panel-title">Fazer Login</div>
-					<div class="small_top_redirect"><a route-href="route: forget; params.bind: {email}">Esqueceu sua senha?</a></div>
+					<div class="small_top_redirect">
+						<small class="form-text text-muted"><a route-href="route: forget; params.bind: {email}">Esqueceu sua senha?</a></small>
+					</div>
 				</div>
 
 				<div class="panel-body login_body_panel">
@@ -33,10 +35,11 @@
 						<div class="form-group">
 							<div class="col-md-12 control">
 								<div class="footer_register_redirect">
-									Não possui uma conta?
-									<a route-href="route: register">
-										Registre-se aqui
-									</a>
+									<small class="form-text text-muted">Não possui uma conta?
+										<a route-href="route: register">
+											Registre-se aqui
+										</a>
+									</small>
 								</div>
 							</div>
 						</div>
