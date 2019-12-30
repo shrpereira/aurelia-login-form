@@ -10,7 +10,7 @@ This project was created in order to study the Aurelia Framework creating a Sign
 4. Run it!
 ```
 npm install aurelia-cli -g
-git clone
+git clone https://github.com/shrpereira/aurelia-login-form.git
 npm install
 au run --watch
 ```
